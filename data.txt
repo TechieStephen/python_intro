@@ -1,0 +1,3 @@
+Hello! welcome to python class.
+We are lookinf at file handling
+Good Luck!.

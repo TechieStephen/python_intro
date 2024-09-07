@@ -1,0 +1,3 @@
+Stephen 70 60
+Hetty 90 90
+Debby 90 91
