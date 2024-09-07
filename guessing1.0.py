@@ -11,10 +11,18 @@ question = "I am something when you break me water comes out, WHAT AM I?"
 answer = "Coconut"
 print("Welcomne To GUESS GUESS")
 print(question)
-user_answer = input("Your Answer: ")
 
-if(user_answer.lower() == answer.lower()):
-    print("YEEEEEEH You are correct")
-else:
-    print("OPPS!! you are wrong")
-    print("Correct: " + answer)
+life = 3
+while( life !=0 ):
+    user_answer = input("Your Answer: ")
+
+    if(user_answer.lower() == answer.lower()):
+        print("YEEEEEEH You are correct")
+    else:
+        life = life - 1
+        if(life > 0 ):
+            print("OPPS!! you are wrong, try again")
+        else:
+            print("OPPS!! THE END")
+        
+    
